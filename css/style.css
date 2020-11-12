@@ -18,8 +18,23 @@ body {
     font-size: 16px;
     line-height: 28px;
     font-weight: 400;
-
 }
+
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.container-content {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.section-line {
+    border-bottom: 1px solid rgba(208, 212, 216, .5);
+}
+
+
 
 /* Header */
 /* header__top */
@@ -106,6 +121,47 @@ li {
 
 /* Header END */
 
+
+/* Reason */
+.reason {
+    padding: 80px 0 0;
+}
+.reason__title {
+    font-family: Georgia;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #4E5665;
+    margin-bottom: 22px;
+}
+.reason__link {
+    text-align: right;
+}
+.reason__link a {
+    font-weight: 700;
+    color: #ECB84C;
+    margin-bottom: 36px;
+}
+.reason__statistics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.reason__statistics-num {
+    margin-top: 32px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 5px;
+    color: #4E5665;
+}
+.reason__statistics-text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 0;
+    color: #909090;
+}
 
 
 
