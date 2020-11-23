@@ -171,3 +171,80 @@ li {
 
 
 
+/* About */
+.about {
+  padding: 80px 0 0;
+  }
+  .about__title {
+  margin-bottom: 13px;
+  }
+  .about__text {
+  margin-bottom: 72px;
+  }
+  
+  .about__item {
+  margin-bottom: 100px;
+  padding: 70px 0;
+  background-repeat: no-repeat;
+  background-position: right;
+  
+  }
+  .about__box {
+  padding: 33px 40px;
+  background-color: #fff;
+  max-width: 470px;
+  position: relative;
+  }
+  
+  .about__box::after,
+  .about__box::before {
+  content: "";
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  }
+  .about__box::before {
+  background-image: url(../img/decor-left.svg);
+  top: 19px;
+  left: 19px;
+  }
+  .about__box::after {
+  border-bottom: 2px solid #ECB84C;
+  border-right: 2px solid #ECB84C;
+  right: 19px;
+  bottom: 19px;
+  }
+  
+  .about__box-title {
+  font-family: Georgia;
+  font-size: 24px;
+  line-height: 25px;
+  color: #4e5665;
+  margin-bottom: 20px;
+  }
+  
+  .about__item:nth-child(even) {
+  background-position: left; 
+  }
+  .about__item:nth-child(even) .about__box {
+  margin-left: auto;
+  }
+  /* рамки в обратную сторону */
+  .about__item:nth-child(even) .about__box::before {
+  right: 19px;
+  left: auto;
+  background-image: none;
+  border-right: 2px solid #ECB84C;
+  border-top: 2px solid #ECB84C;
+  
+  }
+  .about__item:nth-child(even) .about__box::after {
+  left: 19px;
+  border-right: none;
+  border-left: 2px solid #ECB84C;
+  }
+  /* рамки в обратную сторону end*/
+  
+  
+  
+  
