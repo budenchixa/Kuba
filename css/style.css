@@ -339,6 +339,45 @@ li {
   margin-bottom: 8px;
 }
 
+.footer__item-link--social {
+  padding-left: 28px;
+  position: relative;
+}
+.footer__item-link--social::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 16px;
+  height: 16px;
+}
+
+.footer__item-link--message::before {
+  background-image: url(../img/massage.svg);
+  width: 17px;
+  top: 1px;
+}
+
+.footer__item-link--facebook::before {
+  background-image: url(../img/facebook.svg);
+}
+
+.footer__item-link--instagram::before {
+  background-image: url(../img/instagram.svg);
+
+}
+.footer__item-link--youtube::before {
+  background-image: url(../img/youtube-symbol.svg);
+
+}
+.footer__item-link--email::before {
+  background-image: url(../img/email.svg);
+  height: 13px;
+  top: 2px;
+}
+
+
+
+
 a {
   text-decoration: none;
 }
