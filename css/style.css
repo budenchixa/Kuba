@@ -39,6 +39,7 @@ body {
   line-height: 38px;
   text-align: center;
   color: #4e5665;
+  font-weight: 400;
 }
 
 /* Header */
@@ -245,6 +246,82 @@ li {
   }
   /* рамки в обратную сторону end*/
 
+  /* about__preview */
+  .about__preview-title {
+    margin-bottom: 38px;
+  }
+
+  .about__preview-text {
+    margin: 53px auto 80px;
+  }
+
+  .about__image-box {
+    padding-top: 73px;
+    position: relative;
+
+  }
+/* кружочки */
+  .about__dot {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: rgba(236, 184, 76, .75);
+    position: absolute;
+    cursor: pointer;
+  }
+
+  .about__dot--3 {
+    top: 147px;
+    right: 374px;
+  }
+
+  .about__dot::after {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #FFD600;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .about__dot::before {
+    content: "";
+    position: absolute;
+    background-image: url('../img/line.svg');
+    width: 244px;
+    height: 122px;
+    top: -113px;
+    left: 25px;
+    display: none;
+  }
+
+  .about__dot-text {
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: bold;
+  color: #505050;
+  position: absolute;
+  top: -150px;
+  left: 150px;
+  white-space: nowrap;
+  display: none;
+}
+
+.about__dot:hover::before {
+  display: block;
+
+}
+
+.about__dot:hover .about__dot-text {
+  display: block;
+  
+}
+
+
+
+
 
 
 
@@ -274,6 +351,8 @@ li {
   .photo__slider {
     max-width: 640px;
     margin: 0 auto;
+    filter: drop-shadow(0px 2px 24px rgba(0, 0, 0, 0.3));
+
   }
   /* .slick-arrow {
     border: none;
@@ -337,6 +416,8 @@ li {
   font-size: 14px;
   line-height: 19px;
   margin-bottom: 8px;
+  /* отмена переноса слов на сл.строку */
+  white-space: nowrap; 
 }
 
 .footer__item-link--social {
