@@ -269,10 +269,23 @@ li {
     position: absolute;
     cursor: pointer;
   }
+  .about__dot--1 {
+    top: 190px;
+    left: 148px;
+  }
+
+  .about__dot--2 {
+    top: 188px;
+    left: 495px;
+}
 
   .about__dot--3 {
     top: 147px;
     right: 374px;
+  }
+  .about__dot--4 {
+  bottom: 50px;
+  right: 280px;
   }
 
   .about__dot::after {
