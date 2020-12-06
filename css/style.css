@@ -320,7 +320,7 @@ li {
 }
 
 /* Photo */
-.photo {
+/* .photo {
   padding: 80px 0;
 }
  .photo__title {
@@ -342,12 +342,12 @@ li {
   margin: 0 auto;
 }
 /* слайдер */
-.photo__slider {
+/* .photo__slider {
   max-width: 640px;
   margin: 0 auto;
   display: block;
   filter: drop-shadow(0px 2px 24px rgba(0, 0, 0, 0.3));
-}
+} */ */
 /* .slick-arrow {
     border: none;
     border-radius: 50%;
